@@ -72,7 +72,7 @@ body {
   color: #404bbf;
 }
 
-.email {
+.contact-phone-number {
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 16px;
@@ -80,14 +80,12 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.email:hover,
-.email:focus {
-  color: #404bbf;
-}
+
 /* ====================== /HEADER =====================*/
 
 /* ================== HERO===================== */
 .modal-btn {
+  font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -165,7 +163,7 @@ body {
 /* ======================/ FOOTER ==================== */
 
 /* ===================BUTTONS PAGE 2=============== */
-.btn-page2 {
+.btn-page {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -175,8 +173,8 @@ body {
   cursor: pointer;
 }
 
-.btn-page2:hover,
-.btn-page2:focus {
+.btn-page:hover,
+.btn-page:focus {
   color: #ffffff;
   background: #404bbf;
 }
