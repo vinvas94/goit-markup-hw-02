@@ -1,12 +1,6 @@
 :root {
-  --accent-color: #434455;
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  --primary-text-color-theme-dark: #ffffff;
-  --primary-text-color-theme-light: #434455;
-  --secondary-text-color-theme-dark: #e7e9fc;
-  --secondary-text-color-theme-light: #2e2f42;
-  --accent-color-btn: #4d5ae5;
 }
 
 .list {
@@ -23,9 +17,6 @@ body {
 }
 
 /* ==========--------HEADER================== */
-.accent-logo-header {
-  color: #2e2f42;
-}
 
 .menu-link {
   font-weight: 500;
@@ -33,6 +24,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
 }
 
 .logo {
@@ -50,21 +46,12 @@ body {
   color: #404bbf;
 }
 
+.accent-logo-header {
+  color: #2e2f42;
+}
+
 .contacts {
   font-style: normal;
-}
-
-.contact-phone-number {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
 }
 
 .contact-phone-number:hover,
@@ -94,6 +81,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 .modal-btn:hover,
 .modal-btn:focus {
