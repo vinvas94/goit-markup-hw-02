@@ -3,12 +3,11 @@
   --secondary-font: "Raleway", sans-serif;
 }
 
-.list {
-  list-style: none;
-}
-
 .link {
   text-decoration: none;
+}
+ul {
+  list-style-type: none;
 }
 
 body {
@@ -150,7 +149,7 @@ body {
 }
 /* ======================/ FOOTER ==================== */
 
-/* ===================BUTTONS PAGE 2=============== */
+/* ===================PORTFOLIO=============== */
 .btn-page {
   font-family: var(--primary-font);
   font-weight: 500;
@@ -166,4 +165,4 @@ body {
   color: #ffffff;
   background: #404bbf;
 }
-/* ===================BUTTONS PAGE 2=============== */
+/* ===================PORTFOLIO=============== */
