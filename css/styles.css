@@ -1,22 +1,30 @@
 :root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --white-background: #ffffff;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --body-text-color: #434455;
+  --dark-color: #2e2f42;
+  --light-background-color: #f4f4fd;
 }
 
 .link {
   text-decoration: none;
 }
-ul {
-  list-style-type: none;
-}
+
 .list {
   list-style: none;
 }
 
+ul {
+  list-style-type: none;
+}
+
 body {
   font-family: var(--primary-font);
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--body-text-color);
+  background-color: var(--white-background);
 }
 
 /* ==========--------HEADER================== */
@@ -26,12 +34,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .logo {
@@ -39,18 +47,18 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--primary-brand);
 }
+
 .logo:hover,
 .logo:focus {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .accent-logo-header {
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 
 .contacts {
@@ -59,16 +67,15 @@ body {
 
 .contact-phone-number:hover,
 .contact-phone-number:focus {
-  color: #404bbf;
+  color: var(--pressed-state);
 }
 
 .contact-phone-number {
   font-family: var(--primary-font);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--body-text-color);
 }
 
 /* ====================== /HEADER =====================*/
@@ -80,36 +87,35 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white-background);
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: var(--primary-brand);
 }
 .modal-btn:hover,
 .modal-btn:focus {
-  background-color: #404bbf;
-  color: #ffffff;
+  background-color: var(--pressed-state);
+  color: var(--white-background);
 }
 
 .main-title {
   font-family: var(--primary-font);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-background);
 }
 
 .hero {
-  background-color: #2e2f42;
+  background-color: var(--dark-color);
 }
 
 /* ================== /TEAM===================== */
 .section-team {
-  background-color: #f4f4fd;
+  background-color: var(--light-background-color);
 }
 .team-cards {
-  background-color: #ffffff;
+  background-color: var(--white-background);
 }
 /* ================== /TEAM===================== */
 
@@ -118,48 +124,48 @@ body {
 /* ================= COMPONENTS================= */
 .section-headings {
   font-family: var(--primary-font);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
+
 .section-subheadings {
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
+
 .section-description {
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--body-text-color);
 }
 /* ================= /COMPONENTS================= */
 
 /* ======================FOOTER==================== */
 .footer-page {
-  background-color: #2e2f42;
+  background-color: var(--dark-color);
 }
 
 .footer-description {
   font-family: var(--primary-font);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--light-background-color);
 }
 
 .accent-logo-footer {
-  color: #f4f4fd;
+  color: var(--light-background-color);
 }
 /* ======================/ FOOTER ==================== */
 
@@ -170,14 +176,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
+  color: var(--primary-brand);
   cursor: pointer;
-  background-color: #f4f4fd;
+  background-color: var(--light-background-color);
 }
 
 .btn-page:hover,
 .btn-page:focus {
-  color: #ffffff;
-  background: #404bbf;
+  color: var(--white-background);
+  background: var(--pressed-state);
 }
 /* ===================PORTFOLIO=============== */
