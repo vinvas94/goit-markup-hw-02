@@ -9,10 +9,14 @@
 ul {
   list-style-type: none;
 }
+.list {
+  list-style: none;
+}
 
 body {
   font-family: var(--primary-font);
   color: #434455;
+  background-color: #ffffff;
 }
 
 /* ==========--------HEADER================== */
@@ -35,7 +39,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  align-items: center;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -75,8 +79,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -101,6 +103,15 @@ body {
 .hero {
   background-color: #2e2f42;
 }
+
+/* ================== /TEAM===================== */
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-cards {
+  background-color: #ffffff;
+}
+/* ================== /TEAM===================== */
 
 /* ================== /HERO===================== */
 
